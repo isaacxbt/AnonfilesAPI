@@ -46,7 +46,7 @@ except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
-## Download files
+### Download files
 ```python
 import wget
 
