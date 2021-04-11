@@ -1,4 +1,4 @@
-import anonfile
+import anonfile, requests
 
 
 try:
