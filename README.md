@@ -10,7 +10,7 @@ This **unofficial** Python API was created to make uploading and downloading fil
 
 
 ```bash
-pip install requests
+pip install requests && pip install wget
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ try:
 
     # upload files.
     files = {
-        "file": ("filename", "path", "rb")
+        "file": ("filename", "filepath", "rb")
     }
 
     upload = requests.post("https://api.anonfiles.com/upload", files=files)
@@ -46,7 +46,19 @@ except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
+## Download files
+```python
+import wget
 
+
+try:
+
+    download = wget.download("direct URL") # How? https://encrypting.host/f7nkbiHzgK.gif?key=x05yQJBDd7qgYN
+  
+except Exception as e:
+    print(e)
+    # your file can't be downloaded.
+```
 ## Error Handling
 * (10) ERROR_FILE_NOT_PROVIDED
 * (11) ERROR_FILE_EMPTY
