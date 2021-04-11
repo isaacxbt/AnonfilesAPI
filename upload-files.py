@@ -5,7 +5,7 @@ try:
 
     # upload files.
     files = {
-        "file": ("filename","filepath", "rb"))
+        "file": ("filename","filepath", "rb")
     }
 
     upload = requests.post("https://api.anonfiles.com/upload", files=files)
