@@ -42,7 +42,7 @@ try:
         print(e)
         # can't get download link.
   
-except Exception:
+except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
