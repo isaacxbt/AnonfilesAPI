@@ -7,7 +7,7 @@ Anonfiles is a Python library for upload files on [anonfiles.com](https://anonfi
 
 ## About
 
-This **unofficial** Python API was created to make uploading and downloading files from [anonfiles.com](https://anonfiles.com/) simple
+This **unofficial** Python API was created to make uploading and downloading files from [anonfiles.com](https://anonfiles.com/) simple.
 
 ## Installation
 
@@ -18,7 +18,7 @@ pip install requests && pip install wget
 
 ## Usage
 
-### Upload files (it doesn't use the anonfile api)
+### Upload files
 
 ```python
 import requests
@@ -49,7 +49,7 @@ except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
-### Download files
+### Download files (it doesn't use the anonfile api)
 ```python
 import wget
 
