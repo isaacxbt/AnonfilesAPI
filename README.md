@@ -18,7 +18,7 @@ pip install requests && pip install wget
 
 ## Usage
 
-### Upload files
+### Upload files (it doesn't use the anonfile api)
 
 ```python
 import requests
