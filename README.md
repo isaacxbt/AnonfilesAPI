@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
 [![Python 3.x](https://img.shields.io/badge/python-3.x-yellow.svg)](https://www.python.org/) 
 
-Anonfiles is a Python library for upload files on [anonfiles.com](https://anonfiles.com/). 
+Anonfiles is a Python library, used to upload files on [anonfiles.com](https://anonfiles.com/). 
 
 ## About
 
