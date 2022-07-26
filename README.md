@@ -48,7 +48,7 @@ except Exception as e:
     print(e)
     # your file can't be uploaded.
 ```
-### Download files (it doesn't use the anonfile api)
+### Download files
 ```python
 import wget
 
