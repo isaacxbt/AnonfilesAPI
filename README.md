@@ -42,11 +42,10 @@ try:
     
     except Exception as e:
         print(e)
-        # can't get download link.
   
 except Exception as e:
     print(e)
-    # your file can't be uploaded.
+    # your files could not be uploaded
 ```
 ### Download files
 ```python
@@ -59,7 +58,7 @@ try:
   
 except Exception as e:
     print(e)
-    # your file can't be downloaded.
+    # your file could not be downloaded.
 ```
 ## Error Handling
 * (10) ERROR_FILE_NOT_PROVIDED
